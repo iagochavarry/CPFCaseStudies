@@ -1,0 +1,163 @@
+TITU
+24bus - 23 line loss                                                    
+DOPC IMPR
+(Op) E (Op) E (Op) E (Op) E (Op) E (Op) E (Op) E (Op) E (Op) E (Op) E
+CSCA D 
+99999
+DCTE
+(Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) (Mn) ( Val) 
+BASE   100. DASE   100. TEPA     .1 EXST     .4 TETP     5. TBPA     5.
+TLPP     1. TEPR     .1 QLST     .4 TLPR     .1 TLPQ     2. TSBZ    .01
+TSBA     5. ASTP    .05 VSTP     5. TLVC     .5 TLTC    .01 TSFR  .1E-7
+ZMAX   500. TLPV     .5 VDVM   200. VDVN    40. TUDC   .001 TADC    .01
+PGER    30. TPST     .2 VFLD    80. ZMIN   .001 HIST    470 LFIT     10
+ACIT     35 LFCV      1 DCIT     10 VSIT     10 LPIT     50 LFLP     10
+PDIT     10 LCRT     96 LPRT     60 CSTP     5. ASDC     1.
+ICIT   9999 DMAX      5 FDIV     2. ICMN    .05 VART     5. TSTP     33
+ICMV     .5 APAS    90. CPAR    70. VAVT     2. VAVF     5. VMVF    15.
+VPVT     2. VPVF     5. VPMF    10. VSVF    20. VINF     1. VSUP     1.
+TLSI     0. NDIR    20. STTR     5. TRPT   100. STIR     1. BFPO     1.
+LFPO     .1                                                            
+99999
+DBAR
+(Num)OETGb(   nome   )Gl( V)( A)( Pg)( Qg)( Qn)( Qm)(Bc  )( Pl)( Ql)( Sh)Are(Vf)M(1)(2)(3)(4)(5)(6)(7)(8)(9)(10
+    1 L1 A1            A1000 0.035.85180.4-99009900.                       11000
+    2 L1 A2            A1000.01 67.  0.   0.   0.         155. 40.         11000
+    3 L  A3            A 86410.7                          120.  19.        11000
+    4 L  A4            4 925-.42                          150. 30.         11000
+    5 L  A5            A 927-.22                          111.  14.        11000
+    6 L  C6            6 945.39                           90.  18.         11000
+    7 L1 A7            A1000-.5864.  0.   0.   0.         62.  13.         11000
+    8 L  B8            8 965-.87                          100.  18.        11000
+    9 L  A9            A 8354.98                          175. 36.         11000
+   10 L  A10           A 8823.72                          100. 23.         11000
+   11 L  B11           A 83612.6                                           11000
+   12 L  B12           A 84011.8                                           11000
+   13 L2 B13           C1000    200. 0.   -99009900.      130. 27.         11000
+   14 L1 B14           A100018.7          0.   0.         92.  20.         11000
+   15 L1 B15           A100033.2274. 0.   0.   0.         158. 32.         11000
+   16 L1 B16           A100027.1245. 0.   0.   0.         100. 20.         11000
+   17 L  B17           A 89632.                                            11000
+   18 L1 B18           A100033.9144. 0.   0.   0.         162. 34.         11000
+   19 L  B19           A 85223.8                          90.  18.         11000
+   20 L  B20           A 85022.3                          65.  13.         11000
+   21 L1 B21           A100035.6294. 0.   0.   0.                          11000
+   22 L2 B22           A1000 0.0150. 199. -99009900.                       11000
+   23 L1 B23           A100022.1200. 0.   0.   0.                          11000
+   24 L  B24           A 85524.8                                           11000
+99999
+DLIN
+(De )d O d(Pa )NcEP ( R% )( X% )(Mvar)(Tap)(Tmn)(Tmx)(Phs)(Bc  )(Cn)(Ce)Ns(Cq)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10
+    1         2 1   .07   .123  .065                             175          
+    1         5 1   2.243 8.49  2.44                             175          
+    2         4 1   3.361 12.73 3.66                             175          
+    2         6 1   5.064 19.2015.57                             175          
+    3         1 1   5.419 21.1146.13                             175          
+    9         3 1   3.148 11.92       1.              .001       175          
+    4         9 1   2.692 10.7792.79                             175          
+    5        10 1   2.334 8.837                                  175          
+    7         8 1   1.614 6.103 1.79                             175          
+    8         9 1   4.234 16.4824.78                             175          
+    8        10 1   4.234 16.4824.78                             175          
+    9        12 1   .23   8.39                                   400          
+   10         6 1   2.262 3.333 13.029                           175          
+    6         8 1D  1.0   1.5   13.029                           175          
+   11        13 1   .583  4.746 9.59                             500          
+   11        14 1   .513  4.172 8.43                             500          
+   11         9 1   .23   8.39        1.                         400          
+   11        10 1   .23   8.39        1.                         400          
+   12        13 1   .583  4.76  9.59                             500          
+   12        23 1   1.224 9.644 19.84                            500          
+   12        10 1   .23   8.39        1.                         400          
+   14        16 1   .477  3.884 7.85                             500          
+   15        21 1   .607  4.899 10.06                            500          
+   15        24 1   .642  5.187 10.66                            500          
+   16        15 1   .212  17.2693.49                             500          
+   16        17 1   .318  2.59  5.23                             500          
+   16        19 1   .283  2.302 4.65                             500          
+   17        18 1   .177  1.439 2.91                             500          
+   17        22 1   1.225 10.52721.16                            500          
+   18        21 1   .331  2.595 5.33                             500          
+   18        21 2   .331  2.595 5.33                             500          
+   19        20 1   .505  3.964 8.14                             500          
+   19        20 2   .505  3.964 8.14                             500          
+   20        23 1   .276  2.163 4.44                             500          
+   20        23 2   .276  2.163 4.44                             500          
+   21        15 2   .607  4.899 10.06                            500          
+   21        22 1   .829  6.769 13.67                            500          
+   23        13 1   1.06  8.643 17.52                            500          
+   24         3 1   .23   8.39        1.                         400          
+99999
+DCSC
+(De ) O  (Pa )NcEP       (Xmin)(Xmax)( Xv )C ( Vsp) (Ext)Nst(1)(2)(3)(4)(5)(6)
+99999
+DCAI
+(Num) O  Gr E (U) UOp ( P ) ( Q ) (A) (B) (C) (D) (Vfl) (Vf)
+99999
+DGEI
+(Num) OA Gr E(U)UOpUOn( Pg)( Qg)( Qn)( Qm)(Xtrf) ( Xd)( Xq)( Xl) (fp)( Sn)(Ptu)
+99999
+DBSH
+(NFr) O (NTo) Nc C (Vmn (Vmx Bctrl (Qini) T A (Extr
+    8            D 0955 0965     8   0.   L        
+(G  O E (U) UOp (Sht )
+10        2   1  -80.  
+20        2   1   80.  
+FBAN
+(NFr) O (NTo) Nc C (Vmn (Vmx Bctrl (Qini) T A (Extr
+    6            D 0941 0947     6   0.   L        
+(G  O E (U) UOp (Sht )
+10        2   1  -80.  
+20        2   1   80. 
+FBAN
+(NFr) O (NTo) Nc C (Vmn (Vmx Bctrl (Qini) T A (Extr
+    4            D 0922 0926     4   0.   L        
+(G  O E (U) UOp (Sht )
+10        2   1  -80.  
+20        2   1   80. 
+FBAN
+99999
+DSHL
+(De ) O  (Pa )Nc (Shde)(Shpa) ED EP
+    5       10 1       -2.54      L
+99999
+DGER
+    1          1000.        1.   
+   22          1000.        1.   
+99999
+DCAR
+(tp) (no ) C (tp) (no ) C (tp) (no ) C (tp) (no ) O (A) (B) (C) (D) (Vfl)
+99999
+DCER
+(No ) O Gr Un (Kb ) (Incl) ( Qg)( Qn)( Qm) C E
+99999
+DCTR
+(Nf ) O (Nt ) Nc Vmin Vmax C M (Fmin) (Fmax) C ( Vsp) (Ext) Ns
+99999
+DGLT
+(G (Vmn) (Vmx) (Vmne (Vmxe
+ 4 0.922 0.926  0.925 0.935 
+ 6 0.941 0.947 0.932 0.947  
+ 8 0.955 0.965  0.955 0.965  
+99999
+DARE
+(Ar    (Xchg)     (      Identificacao da area       ) (Xmin) (Xmax)
+  1               1
+99999
+DTPF CIRC
+(De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc O
+99999
+DMTE
+(tp) (no ) C (tp) (no ) C (tp) (no ) C (tp) (no ) O F
+99999
+DMFL CIRC
+(De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc (De ) (Pa ) Nc O
+99999
+DGBT
+(G ( kV)
+ B 230. 
+ A 138. 
+99999
+DINJ
+99999
+FIM 
